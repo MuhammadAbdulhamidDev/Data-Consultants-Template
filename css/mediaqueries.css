@@ -10,6 +10,13 @@
   .container {
     max-width: 1320px;
   }
+  /* Section Services */
+  .services-cards-row:first-of-type {
+    margin-bottom: 25rem;
+  }
+  .services-cards-row {
+    padding: 1rem;
+  }
 }
 /*#############################################################################*/
 /*########################### $X-Large < (1200px)$ ############################*/
@@ -18,6 +25,10 @@
   /* Container */
   .container {
     max-width: 1140px;
+  }
+  /* cards-Section */
+  .card {
+    padding: 3rem 0rem;
   }
 }
 /*#############################################################################*/
@@ -46,6 +57,12 @@
     font-size: 1.8rem;
   }
   /* Nav Bar */
+  .navbar-icons {
+    width: 25%;
+  }
+  .navbar-menu {
+    width: 75%;
+  }
   .menu-links:link,
   .menu-links:visited {
     font-size: 1.7rem;
@@ -55,6 +72,40 @@
   }
   .nav-social-icon:not(:nth-of-type(4)) {
     margin-left: 1.5rem;
+  }
+  /* cards Section */
+  .card {
+    padding: 3rem 2rem;
+    width: 50%;
+  }
+  /* Aboutus Section */
+  .aboutus-section {
+    padding: 5rem 0rem;
+  }
+  .aboutus-image {
+    width: 100%;
+  }
+  .aboutus-heading {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .aboutus-text {
+    width: 100%;
+  }
+  .icon-heading {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+  }
+  /* Section Services */
+  .service-card {
+    width: 100%;
+  }
+  .service-card:last-child {
+    margin-bottom: 2;
+  }
+  .service-card-btn:link,
+  .service-card-btn:visited {
+    bottom: 20%;
   }
 }
 /*#############################################################################*/
@@ -90,6 +141,64 @@
   .navbar-menu li:last-of-type {
     padding: 1rem 0rem 1rem 1rem;
   }
+  /* Nav Bar */
+  .menu-links:link,
+  .menu-links:visited {
+    font-size: 1.65rem;
+  }
+  /* Hero Image  */
+  .hero-heading {
+    font-size: 3.5rem;
+  }
+  /* cards Section */
+  .card-heading {
+    font-size: 2rem;
+  }
+  /* Aboutus Section */
+  .aboutus-heading {
+    font-size: 2.7rem;
+  }
+  .aboutus-icon-img {
+    height: 7rem;
+  }
+  .icon-heading {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-top: 1.1rem;
+  }
+  /* Section Services */
+  .service-card {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .service-card-image {
+    width: 100%;
+  }
+  .service-card-text {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .service-card-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .service-card-subtext {
+    font-size: 1.75rem;
+  }
+  .service-card-para {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .service-card-btn:link,
+  .service-card-btn:visited {
+    bottom: 0%;
+    right: 50%;
+    transform: translate(50%, 75%);
+    -webkit-transform: translate(50%, 75%);
+    -moz-transform: translate(50%, 75%);
+    -ms-transform: translate(50%, 75%);
+    -o-transform: translate(50%, 75%);
+  }
 }
 /*#############################################################################*/
 /*############################ $Small < (576px)$ ##############################*/
@@ -106,7 +215,27 @@
   /* Nav Bar */
   .menu-links:link,
   .menu-links:visited {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+  /* Hero Image  */
+  .hero-heading {
+    font-size: 2.75rem;
+  }
+  /* cards Section */
+  .card {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+  /* Aboutus Section */
+  .aboutus-heading {
+    font-size: 2.6rem;
+  }
+  .aboutus-icon-img {
+    height: 6rem;
+  }
+  .icon-heading {
+    font-size: 1.2rem;
+    letter-spacing: 0px;
   }
 }
 /*#############################################################################*/
@@ -121,7 +250,7 @@
   /* Nav Bar */
   .menu-links:link,
   .menu-links:visited {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
   .navbar-menu li {
     padding: 1rem 0.5rem 1rem 0.5rem;
@@ -131,5 +260,26 @@
   }
   .navbar-menu li:last-of-type {
     padding: 1rem 0rem 1rem 0.5rem;
+  }
+  /* Hero Image Section */
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+  /* Aboutus Section */
+  .aboutus-heading {
+    font-size: 2.4rem;
+  }
+  .aboutus-icon-img {
+    height: 5rem;
+  }
+  /* Section Services */
+  .services-heading {
+    font-size: 2.7rem;
+  }
+  .service-card-heading {
+    font-size: 2rem;
+  }
+    .service-card-subtext {
+    font-size: 1.5rem;
   }
 }
