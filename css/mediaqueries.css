@@ -45,6 +45,17 @@
   .btn-hero:visited {
     font-size: 1.8rem;
   }
+  /* Nav Bar */
+  .menu-links:link,
+  .menu-links:visited {
+    font-size: 1.7rem;
+  }
+  .nav-social-icon {
+    font-size: 2.5rem;
+  }
+  .nav-social-icon:not(:nth-of-type(4)) {
+    margin-left: 1.5rem;
+  }
 }
 /*#############################################################################*/
 /*############################# $Medium < (768px)$ ############################*/
@@ -65,6 +76,20 @@
     font-size: 1.6rem;
     padding: 1rem 1rem;
   }
+  /* Nav Bar */
+  .navbar-menu {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-icons {
+    display: none;
+  }
+  .navbar-menu li:first-of-type {
+    padding: 1rem 1rem 1rem 0rem;
+  }
+  .navbar-menu li:last-of-type {
+    padding: 1rem 0rem 1rem 1rem;
+  }
 }
 /*#############################################################################*/
 /*############################ $Small < (576px)$ ##############################*/
@@ -78,6 +103,11 @@
   .logo-img {
     width: 15rem;
   }
+  /* Nav Bar */
+  .menu-links:link,
+  .menu-links:visited {
+    font-size: 1.5rem;
+  }
 }
 /*#############################################################################*/
 /*########################### $Extra Small < (500px)$ #########################*/
@@ -86,6 +116,20 @@
   /* Container  */
   .container {
     max-width: 100%;
-    padding: 0rem .5rem;
+    padding: 0rem 0.5rem;
+  }
+  /* Nav Bar */
+  .menu-links:link,
+  .menu-links:visited {
+    font-size: 1.25rem;
+  }
+  .navbar-menu li {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+  .navbar-menu li:first-of-type {
+    padding: 1rem 0.5rem 1rem 0rem;
+  }
+  .navbar-menu li:last-of-type {
+    padding: 1rem 0rem 1rem 0.5rem;
   }
 }
