@@ -317,6 +317,9 @@
     font-size: 1.2rem;
     letter-spacing: 0px;
   }
+  .values-section {
+    background-position: right;
+  }
   /* Section Services */
   .services-section {
     padding: 5rem 0rem;
