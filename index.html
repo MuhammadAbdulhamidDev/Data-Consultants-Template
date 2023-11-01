@@ -21,8 +21,6 @@
     />
     <!-- Main Css File -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- Normalize Css File For Render All Elements Normally -->
-    <link rel="stylesheet" href="css/normalize.css" />
     <!-- Main Media Queries File -->
     <link rel="stylesheet" href="css/mediaqueries.css" />
   </head>
@@ -75,12 +73,12 @@
       <div class="container">
         <div class="navbar-menu">
           <ul class="menu-list">
-            <li><a href="#" class="menu-links">Home</a></li>
-            <li><a href="#" class="menu-links">Values</a></li>
-            <li><a href="#" class="menu-links">Services</a></li>
-            <li><a href="#" class="menu-links">Projects</a></li>
-            <li><a href="#" class="menu-links">News</a></li>
-            <li><a href="#" class="menu-links">Contact</a></li>
+            <li><a href="#" class="menu-links active">Home</a></li>
+            <li><a href="#about" class="menu-links">About</a></li>
+            <li><a href="#values" class="menu-links">Values</a></li>
+            <li><a href="#projects" class="menu-links">Projects</a></li>
+            <li><a href="#team" class="menu-links">Team</a></li>
+            <li><a href="#contact" class="menu-links">Contact</a></li>
           </ul>
         </div>
         <div class="navbar-icons">
@@ -127,65 +125,8 @@
     <!-- End Hero Image Section -->
     <!-- Start Main -->
     <main>
-      <!-- Start Section-Cards -->
-      <section class="cards-section">
-        <div class="card">
-          <img
-            src="images/06-intelligence.png"
-            alt="Bussines Intelligance"
-            class="card-icon"
-          />
-          <h2 class="card-heading">Business Intelligence</h2>
-          <hr class="card-heading-hr" />
-          <p class="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-            velit saepe quibusdam optio dolorem.
-          </p>
-        </div>
-        <div class="card">
-          <img
-            src="images/07-decisions.png"
-            alt="Bussines Intelligance"
-            class="card-icon"
-          />
-          <h2 class="card-heading">Informed Decisions</h2>
-          <hr class="card-heading-hr" />
-          <p class="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-            velit saepe quibusdam optio dolorem.
-          </p>
-        </div>
-        <div class="card">
-          <img
-            src="images/08-timelines.png"
-            alt="Bussines Intelligance"
-            class="card-icon"
-          />
-          <h2 class="card-heading">Realistic Timelines</h2>
-          <hr class="card-heading-hr" />
-          <p class="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-            velit saepe quibusdam optio dolorem.
-          </p>
-        </div>
-        <div class="card">
-          <img
-            src="images/09-satisfaction.png"
-            alt="Bussines Intelligance"
-            class="card-icon"
-          />
-          <h2 class="card-heading">Customer Satisfaction</h2>
-          <hr class="card-heading-hr" />
-          <p class="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-            velit saepe quibusdam optio dolorem.
-          </p>
-        </div>
-        <div class="clearfix"></div>
-      </section>
-      <!-- End Section-Cards -->
       <!-- Start Aboutus Section-->
-      <section class="aboutus-section">
+      <section class="aboutus-section" id="about">
         <div class="container">
           <div class="aboutus-image">
             <div>
@@ -256,12 +197,75 @@
         </div>
       </section>
       <!-- End Aboutus Section -->
+      <!-- Start Values Section -->
+      <section class="values-section" id="values">
+        <div class="container">
+          <h2 class="general-heading">Our Values</h2>
+          <hr class="general-heading-hr" />
+          <div class="cards-div">
+            <div class="card">
+              <img
+                src="images/06-intelligence.png"
+                alt="Bussines Intelligance"
+                class="card-icon"
+              />
+              <h2 class="card-heading">Business Intelligence</h2>
+              <hr class="card-heading-hr" />
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorum velit saepe quibusdam optio dolorem.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="images/07-decisions.png"
+                alt="Bussines Intelligance"
+                class="card-icon"
+              />
+              <h2 class="card-heading">Informed Decisions</h2>
+              <hr class="card-heading-hr" />
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorum velit saepe quibusdam optio dolorem.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="images/08-timelines.png"
+                alt="Bussines Intelligance"
+                class="card-icon"
+              />
+              <h2 class="card-heading">Realistic Timelines</h2>
+              <hr class="card-heading-hr" />
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorum velit saepe quibusdam optio dolorem.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="images/09-satisfaction.png"
+                alt="Bussines Intelligance"
+                class="card-icon"
+              />
+              <h2 class="card-heading">Customer Satisfaction</h2>
+              <hr class="card-heading-hr" />
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorum velit saepe quibusdam optio dolorem.
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Values Section-->
       <!-- Start Services Section -->
       <section class="services-section">
         <div class="container">
-          <h1 class="services-heading">Our Services</h1>
-          <hr class="services-heading-hr" />
-          <div class="services-cards-row">
+          <h2 class="general-heading">Our Services</h2>
+          <hr class="general-heading-hr" />
+          <div class="cards-div">
             <div class="service-card">
               <div class="service-card-image">
                 <img
@@ -314,66 +318,417 @@
                 >
               </div>
             </div>
+            <div class="service-card">
+              <div class="service-card-image">
+                <img
+                  src="images/16-businessconsulting.jpg"
+                  alt="Business Consulting"
+                  class="service-card-img"
+                />
+              </div>
+              <div class="service-card-text">
+                <h2 class="service-card-heading">Business Consulting</h2>
+                <p class="service-card-subtext">
+                  We offer wide range of business consulting services
+                </p>
+                <p class="service-card-para">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptatibus saepe ipsam placeat nobis, id quam deleniti
+                  tenetur inventore consectetur...
+                </p>
+                <a
+                  href="https://chat.openai.com/"
+                  target="_blank"
+                  class="service-card-btn"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-card-image">
+                <img
+                  src="images/17-erpsolutions.jpg"
+                  alt="Business Consulting"
+                  class="service-card-img"
+                />
+              </div>
+              <div class="service-card-text">
+                <h2 class="service-card-heading">ERP SOLUTIONS</h2>
+                <p class="service-card-subtext">
+                  Our range of ERP solutions are fit for every company
+                </p>
+                <p class="service-card-para">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptatibus saepe ipsam placeat nobis, id quam deleniti
+                  tenetur inventore consectetur...
+                </p>
+                <a
+                  href="https://chat.openai.com/"
+                  target="_blank"
+                  class="service-card-btn"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="clearfix"></div>
           </div>
-          <div class="services-cards-row">
-            <div class="service-card">
-              <div class="service-card-image">
-                <img
-                  src="images/16-businessconsulting.jpg"
-                  alt="Business Consulting"
-                  class="service-card-img"
-                />
-              </div>
-              <div class="service-card-text">
-                <h2 class="service-card-heading">Business Consulting</h2>
-                <p class="service-card-subtext">
-                  We offer wide range of business consulting services
-                </p>
-                <p class="service-card-para">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus saepe ipsam placeat nobis, id quam deleniti
-                  tenetur inventore consectetur...
-                </p>
-                <a
-                  href="https://chat.openai.com/"
-                  target="_blank"
-                  class="service-card-btn"
-                  >Read More</a
-                >
+        </div>
+      </section>
+      <!-- End Services Section -->
+      <!-- Start Number Section -->
+      <section class="section-numbers" id="projects">
+        <div class="container">
+          <div class="number-card">
+            <p class="number-text">25<span>+</span></p>
+            <p class="number-subtext">Years of Experience</p>
+          </div>
+          <div class="number-card">
+            <p class="number-text">500<span>K</span></p>
+            <p class="number-subtext">Projects Completed</p>
+          </div>
+          <div class="number-card">
+            <p class="number-text">30<span>+</span></p>
+            <p class="number-subtext">Consultants</p>
+          </div>
+          <div class="number-card">
+            <p class="number-text">100<span>%</span></p>
+            <p class="number-subtext">Customer Satisfaction</p>
+          </div>
+          <div class="clearfix"></div>
+          <p class="number-link">
+            <a
+              href="https://chat.openai.com/auth/login?next=%2Fauth%2Flogin%3Fnext%3D%252F"
+              target="_blank"
+              class="btn-quote"
+              >View Case Studies</a
+            >
+          </p>
+        </div>
+      </section>
+      <!-- End Number Section -->
+      <!-- Start Meet Our Team Section-->
+      <section class="team-section" id="team">
+        <div class="container">
+          <h2 class="general-heading">MEET OUR TEAM</h2>
+          <hr class="general-heading-hr" />
+          <div class="team-card">
+            <div class="team-card-image">
+              <img
+                src="images/21-geoff.jpg"
+                alt="Geoff Warner"
+                class="card-img"
+              />
+              <div class="team-card-image-inner">
+                <div class="team-icons">
+                  <a href="https://web.whatsapp.com/" target="_blank">
+                    <ion-icon
+                      name="logo-whatsapp"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a href="https://twitter.com/muhamed_eng" target="_blank">
+                    <ion-icon
+                      name="logo-twitter"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/mohamed.abdelhmid/"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-facebook"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/muhammad-abdulhamid-970829144"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-linkedin"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="service-card">
-              <div class="service-card-image">
-                <img
-                  src="images/17-erpsolutions.jpg"
-                  alt="Business Consulting"
-                  class="service-card-img"
-                />
-              </div>
-              <div class="service-card-text">
-                <h2 class="service-card-heading">ERP SOLUTIONS</h2>
-                <p class="service-card-subtext">
-                  Our range of ERP solutions are fit for every company
-                </p>
-                <p class="service-card-para">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus saepe ipsam placeat nobis, id quam deleniti
-                  tenetur inventore consectetur...
-                </p>
-                <a
-                  href="https://chat.openai.com/"
-                  target="_blank"
-                  class="service-card-btn"
-                  >Read More</a
-                >
+            <p class="team-name">Geoff Warner</p>
+            <p class="team-title">Chairman</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card-image">
+              <img
+                src="images/21-geoff.jpg"
+                alt="Geoff Warner"
+                class="card-img"
+              />
+              <div class="team-card-image-inner">
+                <div class="team-icons">
+                  <a href="https://web.whatsapp.com/" target="_blank">
+                    <ion-icon
+                      name="logo-whatsapp"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a href="https://twitter.com/muhamed_eng" target="_blank">
+                    <ion-icon
+                      name="logo-twitter"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/mohamed.abdelhmid/"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-facebook"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/muhammad-abdulhamid-970829144"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-linkedin"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                </div>
               </div>
             </div>
+            <p class="team-name">Geoff Warner</p>
+            <p class="team-title">CEO</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card-image">
+              <img
+                src="images/21-geoff.jpg"
+                alt="Geoff Warner"
+                class="card-img"
+              />
+              <div class="team-card-image-inner">
+                <div class="team-icons">
+                  <a href="https://web.whatsapp.com/" target="_blank">
+                    <ion-icon
+                      name="logo-whatsapp"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a href="https://twitter.com/muhamed_eng" target="_blank">
+                    <ion-icon
+                      name="logo-twitter"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/mohamed.abdelhmid/"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-facebook"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/muhammad-abdulhamid-970829144"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-linkedin"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p class="team-name">Geoff Warner</p>
+            <p class="team-title">Chairman</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card-image">
+              <img
+                src="images/21-geoff.jpg"
+                alt="Geoff Warner"
+                class="card-img"
+              />
+              <div class="team-card-image-inner">
+                <div class="team-icons">
+                  <a href="https://web.whatsapp.com/" target="_blank">
+                    <ion-icon
+                      name="logo-whatsapp"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a href="https://twitter.com/muhamed_eng" target="_blank">
+                    <ion-icon
+                      name="logo-twitter"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/mohamed.abdelhmid/"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-facebook"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/muhammad-abdulhamid-970829144"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      name="logo-linkedin"
+                      class="team-social-icon"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p class="team-name">Geoff Warner</p>
+            <p class="team-title">CEO</p>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+      </section>
+      <!-- End Meet Our Team Section-->
+      <!-- Start Review Section -->
+      <section class="review-section">
+        <div class="container">
+          <div class="review-div">
+            <p class="review-text">
+              <q
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                hic, rerum, quaerat vero nam nostrum voluptates ullam quisquam
+                labore quo nobis dolorem repudiandae commodi aperiam illum
+                dolore sunt odio! Nam!</q
+              >
+            </p>
+            <p class="stars-para">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </p>
+            <p class="team-name">Muhammad AbdulHamid</p>
+            <p class="team-title">CEO - Security Solutions LLC</p>
+          </div>
+        </div>
+      </section>
+      <!-- End Review Section -->
+      <!-- Start Contact Us Section -->
+      <section class="section-contactus" id="contact">
+        <div class="container">
+          <div class="form-div">
+            <h2 class="form-heading">Contact Us</h2>
+            <form action="#">
+              <div class="input-div">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="text-input"
+                  placeholder="Name"
+                  required
+                />
+                <label for="name" class="label-input">Name</label>
+              </div>
+              <div class="input-div">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="text-input"
+                  placeholder="Email"
+                  required
+                />
+                <label for="email" class="label-input">Email</label>
+              </div>
+              <div class="input-div">
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  class="text-input"
+                  placeholder="Phone"
+                  required
+                />
+                <label for="phone" class="label-input">Phone</label>
+              </div>
+              <div class="input-div">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="3"
+                  class="text-input"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <label for="message" class="label-input">Message</label>
+              </div>
+              <input type="submit" value="Submit" class="btn-submit" />
+            </form>
           </div>
           <div class="clearfix"></div>
         </div>
       </section>
-      <!-- End Services Section -->
+      <!-- End Contact Us Section -->
     </main>
+    <!-- End Main -->
+    <!-- Start Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <img
+            src="images/26-logo-light.png"
+            alt="Data Consultant"
+            class="footer-logo-img"
+          />
+        </div>
+        <div class="footer-icons">
+          <a href="https://web.whatsapp.com/" target="_blank">
+            <ion-icon
+              name="logo-whatsapp"
+              class="footer-social-icon"
+            ></ion-icon>
+          </a>
+          <a href="mailto:muhammad.abdulhamid.dev@gmail.com" target="_blank">
+            <ion-icon name="logo-google" class="footer-social-icon"></ion-icon>
+          </a>
+          <a href="https://twitter.com/muhamed_eng" target="_blank">
+            <ion-icon name="logo-twitter" class="footer-social-icon"></ion-icon>
+          </a>
+          <a href="https://www.facebook.com/mohamed.abdelhmid/" target="_blank">
+            <ion-icon
+              name="logo-facebook"
+              class="footer-social-icon"
+            ></ion-icon>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/muhammad-abdulhamid-970829144"
+            target="_blank"
+          >
+            <ion-icon
+              name="logo-linkedin"
+              class="footer-social-icon"
+            ></ion-icon>
+          </a>
+          <a
+            href="https://github.com/MuhammadAbdulhamidDev?tab=repositories"
+            target="_blank"
+            ><ion-icon name="logo-github" class="footer-social-icon"></ion-icon
+          ></a>
+        </div>
+        <p class="copyright">&copy; Copyrights 2023 - All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
     <!-- START ICONS SCRIPT -->
     <script
       type="module"

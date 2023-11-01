@@ -1,5 +1,5 @@
 /*######################## $DeskTop First Method$ #############################*/
-/*Most Common Used Break Points 1366px _ 1200px _ 992px _ 768px _ 576px _ 500px*/
+/* Most Common Used Break Points < 1400px _ 1200px _ 992px _ 768px _ 576px */
 /*#############################################################################*/
 
 /*#############################################################################*/
@@ -8,14 +8,27 @@
 @media (max-width: 1399.98px) {
   /* Container */
   .container {
-    max-width: 1320px;
+    max-width: 1140px;
+  }
+  /* Hero Image Section */
+  .hero-heading {
+    font-size: 4.25rem;
+  }
+  /* Section About */
+  .aboutus-icon-img {
+    height: 6rem;
+  }
+  .icon-heading {
+    font-size: 1.75rem;
   }
   /* Section Services */
-  .services-cards-row:first-of-type {
-    margin-bottom: 25rem;
+  .service-card-subtext {
+    font-size: 1.6rem;
+    letter-spacing: 0.75px;
   }
-  .services-cards-row {
-    padding: 1rem;
+  /* Footer Section */
+  .footer-social-icon {
+    font-size: 2.6rem;
   }
 }
 /*#############################################################################*/
@@ -24,11 +37,7 @@
 @media (max-width: 1199.98px) {
   /* Container */
   .container {
-    max-width: 1140px;
-  }
-  /* cards-Section */
-  .card {
-    padding: 3rem 0rem;
+    max-width: 960px;
   }
 }
 /*#############################################################################*/
@@ -37,7 +46,7 @@
 @media (max-width: 991.98px) {
   /* Container */
   .container {
-    max-width: 960px;
+    max-width: 720px;
   }
   /* Logo Bar */
   .logobar-div:nth-child(2),
@@ -48,7 +57,7 @@
     width: 50%;
   }
   .logo-img {
-    width: 17rem;
+    width: 15rem;
   }
   .btn-quote:link,
   .btn-quote:visited,
@@ -65,18 +74,17 @@
   }
   .menu-links:link,
   .menu-links:visited {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .nav-social-icon {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   .nav-social-icon:not(:nth-of-type(4)) {
     margin-left: 1.5rem;
   }
-  /* cards Section */
-  .card {
-    padding: 3rem 2rem;
-    width: 50%;
+  /* Hero Image Section */
+  .hero-heading {
+    font-size: 4rem;
   }
   /* Aboutus Section */
   .aboutus-section {
@@ -96,16 +104,64 @@
     font-size: 1.75rem;
     letter-spacing: 1px;
   }
+  .aboutus-icon-img {
+    height: 5rem;
+  }
+  /* Section Values */
+  .card {
+    padding: 3rem 1rem;
+  }
+  .card-icon {
+    height: 4rem;
+  }
+  .card-heading {
+    font-size: 1.75rem;
+  }
+  .card-text {
+    font-size: 1.6rem;
+  }
   /* Section Services */
   .service-card {
     width: 100%;
+    float: unset;
   }
-  .service-card:last-child {
-    margin-bottom: 2;
+  .service-card .service-card-image {
+    text-align: center !important;
   }
-  .service-card-btn:link,
-  .service-card-btn:visited {
-    bottom: 20%;
+  .service-card:nth-of-type(3),
+  .service-card:nth-of-type(4) {
+    margin-top: unset;
+  }
+  .service-card:not(:nth-of-type(4)) {
+    margin-bottom: 3rem;
+  }
+  /* Numbers Section */
+  .number-text {
+    font-size: 7rem;
+  }
+  .number-text span {
+    font-size: 5rem;
+  }
+  .number-subtext {
+    font-size: 1.5rem;
+  }
+  /* Meet Our Team Section */
+  .team-icons a:not(:last-of-type) {
+    margin-right: 1rem;
+  }
+  .team-social-icon {
+    font-size: 2.5rem;
+  }
+  .team-social-icon:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+  /* Contact Us Section */
+  .section-contactus {
+    background-position: left;
   }
 }
 /*#############################################################################*/
@@ -114,11 +170,11 @@
 @media (max-width: 767.98px) {
   /* Container */
   .container {
-    max-width: 720px;
+    max-width: 540px;
   }
   /* Logo Bar */
   .logo-img {
-    width: 16rem;
+    width: 14rem;
   }
   .btn-quote:link,
   .btn-quote:visited,
@@ -141,63 +197,86 @@
   .navbar-menu li:last-of-type {
     padding: 1rem 0rem 1rem 1rem;
   }
-  /* Nav Bar */
-  .menu-links:link,
-  .menu-links:visited {
-    font-size: 1.65rem;
-  }
   /* Hero Image  */
   .hero-heading {
     font-size: 3.5rem;
   }
-  /* cards Section */
-  .card-heading {
-    font-size: 2rem;
-  }
   /* Aboutus Section */
   .aboutus-heading {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
   }
   .aboutus-icon-img {
-    height: 7rem;
+    height: 4.75rem;
   }
   .icon-heading {
     font-size: 1.4rem;
     letter-spacing: 1px;
     margin-top: 1.1rem;
   }
-  /* Section Services */
-  .service-card {
-    margin-bottom: 5rem;
-    text-align: center;
+  /* Values Section */
+  .card {
+    width: 100%;
+    padding: 3rem 2rem;
   }
-  .service-card-image {
+  /* Section Services */
+  .service-card-image,
+  .service-card-img {
     width: 100%;
   }
   .service-card-text {
     width: 100%;
-    margin-top: 2rem;
+    left: unset !important;
   }
   .service-card-heading {
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   .service-card-subtext {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
-  .service-card-para {
-    margin-bottom: 3rem;
-    text-align: center;
+  /* Numbers Section */
+  .number-text {
+    font-size: 5.5rem;
   }
-  .service-card-btn:link,
-  .service-card-btn:visited {
-    bottom: 0%;
-    right: 50%;
-    transform: translate(50%, 75%);
-    -webkit-transform: translate(50%, 75%);
-    -moz-transform: translate(50%, 75%);
-    -ms-transform: translate(50%, 75%);
-    -o-transform: translate(50%, 75%);
+  .number-text span {
+    font-size: 4rem;
+  }
+  .number-subtext {
+    font-size: 1.4rem;
+  }
+  /*Meet Our Team Section*/
+  .team-card {
+    width: calc(100% / 2);
+  }
+  .team-icons a:not(:last-of-type) {
+    margin-right: 1.5rem;
+  }
+  .team-social-icon {
+    font-size: 2.75rem;
+  }
+  .team-social-icon:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  /* Contact Us Section */
+  .section-contactus {
+    background-image: linear-gradient(
+        rgb(2, 61, 138, 0.9) 0%,
+        rgb(0, 118, 182, 0.8) 50%
+      ),
+      url(../images/25-contactus.jpg);
+  }
+  .form-div {
+    width: 100%;
+    float: unset;
+    padding-left: unset;
+  }
+  /* Footer Section */
+  .footer-logo-img {
+    height: 5rem;
   }
 }
 /*#############################################################################*/
@@ -206,52 +285,13 @@
 @media (max-width: 575.98px) {
   /* Container  */
   .container {
-    max-width: 540px;
+    max-width: 100%;
   }
   /* Logo Bar */
   .logo-img {
-    width: 15rem;
+    width: 13rem;
   }
   /* Nav Bar */
-  .menu-links:link,
-  .menu-links:visited {
-    font-size: 1.4rem;
-  }
-  /* Hero Image  */
-  .hero-heading {
-    font-size: 2.75rem;
-  }
-  /* cards Section */
-  .card {
-    width: 100%;
-    padding: 3rem 2rem;
-  }
-  /* Aboutus Section */
-  .aboutus-heading {
-    font-size: 2.6rem;
-  }
-  .aboutus-icon-img {
-    height: 6rem;
-  }
-  .icon-heading {
-    font-size: 1.2rem;
-    letter-spacing: 0px;
-  }
-}
-/*#############################################################################*/
-/*########################### $Extra Small < (500px)$ #########################*/
-/*#############################################################################*/
-@media (max-width: 500px) {
-  /* Container  */
-  .container {
-    max-width: 100%;
-    padding: 0rem 0.5rem;
-  }
-  /* Nav Bar */
-  .menu-links:link,
-  .menu-links:visited {
-    font-size: 1.2rem;
-  }
   .navbar-menu li {
     padding: 1rem 0.5rem 1rem 0.5rem;
   }
@@ -261,25 +301,66 @@
   .navbar-menu li:last-of-type {
     padding: 1rem 0rem 1rem 0.5rem;
   }
-  /* Hero Image Section */
+  .menu-links:link,
+  .menu-links:visited {
+    font-size: 1.2rem;
+  }
+  /* Hero Image  */
   .hero-heading {
     font-size: 2.4rem;
   }
   /* Aboutus Section */
-  .aboutus-heading {
-    font-size: 2.4rem;
-  }
   .aboutus-icon-img {
-    height: 5rem;
+    height: 4rem;
+  }
+  .icon-heading {
+    font-size: 1.2rem;
+    letter-spacing: 0px;
   }
   /* Section Services */
-  .services-heading {
-    font-size: 2.7rem;
+  .services-section {
+    padding: 5rem 0rem;
   }
-  .service-card-heading {
-    font-size: 2rem;
+  /* Numbers Section */
+  .number-card {
+    width: 50%;
+    padding: 2rem 1rem;
   }
-    .service-card-subtext {
-    font-size: 1.5rem;
+  /*Meet Our Team Section*/
+  .team-card {
+    width: 100%;
+  }
+  .team-card:not(:nth-of-type(4)) {
+    margin-bottom: 3rem;
+  }
+  .team-icons a:not(:last-of-type) {
+    margin-right: 2rem;
+  }
+  .team-social-icon {
+    font-size: 3.5rem;
+  }
+  .team-social-icon:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+  /* Start Contact Us Section */
+  .section-contactus {
+    background-position: 15%;
+  }
+  /* Footer Section */
+  .footer-logo-img {
+    height: 4rem;
+  }
+  .footer-icons a:not(:last-of-type) {
+    margin-right: 1rem;
+  }
+  .footer-social-icon {
+    font-size: 2.5rem;
+  }
+  .copyright {
+    font-size: 1.6rem;
   }
 }
